@@ -167,9 +167,9 @@ function generate_unrelated_chapters_nav() {
     'post_type' => 'chapter',
     'posts_per_page' => -1,
     'order' => 'DESC',
-    'category_name' => 'unrelated',
+    'category_name' => 'guidesunrelated',
   );
-  return generate_nav_html(new WP_Query($args), 'Unrelated');
+  return generate_nav_html(new WP_Query($args), 'Guides & Unrelated');
 }
 
 // Shared HTML generator
